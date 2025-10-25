@@ -1,0 +1,8 @@
+<!-- circle_mic_animation.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#33FCA311"/>
+    <stroke 
+        android:width="2dp"
+        android:color="#FCA311"/>
+</shape>

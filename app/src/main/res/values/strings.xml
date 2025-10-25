@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">Apex City</string>
+    
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="tagline">Help take your city to its peak</string>
-
+    
     <!-- Welcome Screen -->
+    <string name="welcome_title">Improve My City</string>
+    <string name="welcome_subtitle">Building better communities together. Report, track, and resolve civic issues.</string>
     <string name="get_started">Get Started</string>
-    <string name="welcome_title">Apex City</string>
-    <string name="welcome_subtitle">Help your city to its peak</string>
+    
+    <!-- Landing Screen -->
+    <string name="landing_title">How Can We Help?</string>
     <string name="how_it_works">How It Works</string>
+    <string name="view_reports">View My Reports</string>
+    <string name="browse_issues">Browse Issues</string>
+    
+    <!-- Features -->
     <string name="report_issues">Report Issues</string>
     <string name="report_issues_desc">Easily report civic problems with photos and location</string>
     <string name="track_progress">Track Progress</string>
@@ -15,38 +26,55 @@
     <string name="see_results_desc">View resolved issues and community impact</string>
     <string name="get_help">Get Help</string>
     <string name="get_help_desc">Chat with our AI assistant for instant support</string>
-    <string name="browse_issues">Browse Issues</string>
-
-    <!-- Auth -->
+    <string name="explore_map">Explore Map</string>
+    
+    <!-- Auth Screen -->
     <string name="welcome_back">Welcome Back</string>
     <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
     <string name="full_name">Full Name</string>
     <string name="phone">Phone Number</string>
+    <string name="phone_number">Phone Number</string>
     <string name="password_hint">Must be at least 6 characters</string>
-    <string name="google_sign_in">Continue with Google</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_continue_with">Or continue with</string>
     <string name="or_divider">OR</string>
-
+    <string name="google_sign_in">Continue with Google</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    
     <!-- Bottom Navigation -->
     <string name="nav_home">Home</string>
     <string name="nav_my_reports">My reports</string>
     <string name="nav_map">Map</string>
     <string name="nav_chat">Chat</string>
-
-    <!-- Home -->
+    
+    <!-- Home Fragment -->
+    <string name="hello">Hello</string>
     <string name="pending">Pending</string>
     <string name="in_progress">In Progress</string>
     <string name="resolved">Resolved</string>
     <string name="recent_issues">Recent Issues</string>
     <string name="report_an_issue">Report An Issue</string>
     <string name="report_first_issue">Report First Issue</string>
+    <string name="report_new_issue">Report New Issue</string>
     <string name="no_issues_yet">No issues reported yet</string>
-
+    <string name="no_reports">No reports yet</string>
+    <string name="recent_reports">Recent Reports</string>
+    
     <!-- Report Issue -->
+    <string name="report_issue">Report Issue</string>
+    <string name="choose_reporting_method">Choose Reporting Method</string>
     <string name="report_using_ai">Report issue using AI</string>
+    <string name="report_with_ai">Report with AI</string>
     <string name="report_manually">Report issue manually</string>
+    <string name="ai_description">Take a photo and let AI identify the issue</string>
+    <string name="manual_description">Select category and describe the issue</string>
     <string name="take_photo">Take Photo</string>
     <string name="choose_from_gallery">Choose from Gallery</string>
     <string name="issue_title">Issue Title</string>
@@ -54,40 +82,95 @@
     <string name="select_category">Select Category</string>
     <string name="capture_location">Capture Location</string>
     <string name="submit_report">Submit Report</string>
-
-    <!-- Categories -->
+    
+    <!-- Issue Categories -->
     <string name="administrative_civic">Administrative &amp; Civic Services</string>
     <string name="citizen_safety">Citizen &amp; Safety</string>
     <string name="infrastructure">Infrastructure</string>
     <string name="public_utilities">Public Utilities</string>
     <string name="traffic_transport">Traffic/Transport</string>
     <string name="environment">Environment &amp; Public Spaces</string>
+    <string name="environment_public_spaces">Environment &amp; Public Spaces</string>
     <string name="other">Other</string>
-
+    
+    <!-- AI Report -->
+    <string name="capture_image">Capture Image</string>
+    <string name="analyzing">Analyzing...</string>
+    <string name="is_this_correct">Is this correct?</string>
+    <string name="yes_submit">Yes, Submit</string>
+    <string name="no_retake">No, Retake</string>
+    
+    <!-- Manual Report -->
+    <string name="add_photos">Add Photos</string>
+    <string name="location">Location</string>
+    <string name="use_current_location">Use Current Location</string>
+    
     <!-- Map -->
     <string name="issues_map">Issues Map</string>
     <string name="search_locations">Search locations…</string>
+    <string name="select_location">Select Location</string>
+    <string name="current_location">Current Location</string>
     <string name="all">All</string>
     <string name="potholes">Potholes</string>
     <string name="garbage">Garbage</string>
     <string name="streetlights">Streetlights</string>
-
-    <!-- Profile/Drawer -->
+    
+    <!-- My Reports -->
+    <string name="my_reports">My Reports</string>
+    <string name="filter">Filter</string>
+    
+    <!-- Chat -->
+    <string name="chat_title">City Assistant</string>
+    <string name="chat_support">Chat Support</string>
+    <string name="listening">Listening...</string>
+    <string name="speak_now">Speak now</string>
+    <string name="how_can_i_help">How can I help you?</string>
+    
+    <!-- Profile/Drawer Menu -->
     <string name="profile">Profile</string>
     <string name="settings">Settings</string>
     <string name="rate_us">Rate Us</string>
     <string name="leaderboard">Leaderboard</string>
     <string name="contribute">Contribute</string>
     <string name="logout">Logout</string>
-
+    <string name="menu_report_issue">Report Issue</string>
+    <string name="menu_my_reports">My Reports</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_results">See Results</string>
+    <string name="menu_contribute">Contribute</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_rate_us">Rate Us</string>
+    <string name="menu_logout">Logout</string>
+    
+    <!-- Complaint Detail -->
+    <string name="complaint_details">Complaint Details</string>
+    <string name="status">Status</string>
+    <string name="timeline">Timeline</string>
+    <string name="update_status">Update Status</string>
+    <string name="share">Share</string>
+    <string name="submitted">Submitted</string>
+    <string name="under_review">Under Review</string>
+    
     <!-- Permissions -->
     <string name="permission_camera">Camera permission is required to take photos</string>
+    <string name="permission_camera_rationale">Camera permission is required to capture images of issues</string>
     <string name="permission_location">Location permission is required to report issues</string>
+    <string name="permission_location_rationale">Location permission is required to tag issue locations</string>
     <string name="permission_storage">Storage permission is required to select photos</string>
-
-    <!-- Google Maps API Key -->
+    <string name="permission_storage_rationale">Storage permission is required to save and load images</string>
+    <string name="permission_microphone_rationale">Microphone permission is required for voice chat</string>
+    
+    <!-- Messages -->
+    <string name="report_submitted">Report submitted successfully!</string>
+    <string name="error_occurred">An error occurred. Please try again.</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="loading">Loading...</string>
+    <string name="api_error">Unable to connect to server</string>
+    
+    <!-- Google Configuration -->
+    <string name="default_web_client_id">YOUR_GOOGLE_WEB_CLIENT_ID</string>
     <string name="google_maps_key">YOUR_GOOGLE_MAPS_API_KEY</string>
-
+    
     <!-- Server URL -->
     <string name="base_url">http://10.0.2.2:5000/api/</string>
 </resources>

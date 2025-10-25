@@ -86,7 +86,7 @@ class HomeFragment : Fragment() {
 
     private fun navigateToReportIssue() {
         parentFragmentManager.beginTransaction()
-            .replace(android.R.id.content, ReportIssueFragment())
+            .replace(android.R.id.content, ReportIssueSelectionFragment())
             .addToBackStack(null)
             .commit()
     }

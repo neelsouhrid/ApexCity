@@ -48,7 +48,7 @@ class WelcomeActivity : AppCompatActivity() {
                 .setDuration(100L)
                 .withEndAction {
                     // Navigate to main activity
-                    startActivity(Intent(this, MainActivity::class.java))
+                    startActivity(Intent(this, com.example.apexcity.ui.MainActivity::class.java))
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
                     finish()
                 }

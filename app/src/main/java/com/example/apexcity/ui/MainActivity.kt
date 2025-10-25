@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         val isNewUser = intent.getBooleanExtra("is_new_user", false)
         if (isNewUser) {
             // Navigate to report issue for first-time users
-            loadFragment(ReportIssueFragment())
+            loadFragment(ReportIssueSelectionFragment())
         } else {
             // Load home fragment
             loadFragment(HomeFragment())

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp">
+
+    <View
+        android:id="@+id/timelineIndicator"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/circle_timeline_completed" />
+
+    <View
+        android:id="@+id/timelineLine"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@id/timelineIndicator"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:background="#FCA311" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/timelineIndicator"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvTimelineTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submitted"
+            android:textColor="#14213D"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTimelineDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Oct 25, 2024 10:30 AM"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>

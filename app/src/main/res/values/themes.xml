@@ -1,21 +1,37 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
     <style name="Base.Theme.ApexCity" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
         <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
         <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
         <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/dark_blue</item>
         <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 
     <style name="Theme.ApexCity" parent="Base.Theme.ApexCity" />
-
+    
+    <!-- NoActionBar Theme -->
+    <style name="Theme.ApexCity.NoActionBar" parent="Theme.ApexCity">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    
+    <!-- Rounded Button Style -->
     <style name="RoundedButton" parent="Widget.Material3.Button">
         <item name="cornerRadius">30dp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-
+    
+    <!-- Tab Button Style -->
     <style name="TabButton">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/dark_blue</item>
