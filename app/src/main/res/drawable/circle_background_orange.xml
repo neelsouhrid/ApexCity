@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file defines an orange circular shape drawable.
+    It should be saved in the res/drawable/ directory.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Define the solid fill color using the specified orange code -->
+    <solid android:color="#FAE46F" />
+
+    <!-- Padding and size elements are optional, but often useful for icons.
+         If you want to ensure the circle has a minimum size, you can uncomment <size>
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+    -->
+
+</shape>

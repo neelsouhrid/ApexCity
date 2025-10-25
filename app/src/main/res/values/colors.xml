@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_blue">#14213D</color>
+    <color name="orange">#F1AE19</color>
+    <color name="light_gray">#E5E5E5</color>
+    <color name="apex_yellow">#FCA311</color>
+
+    <!-- Status colors -->
+    <color name="status_pending">#FCA311</color>
+    <color name="status_progress">#2196F3</color>
+    <color name="status_resolved">#4CAF50</color>
+</resources>
